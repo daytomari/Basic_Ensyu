@@ -8,8 +8,8 @@ package Ensyu;
 
 public class Ensyu05 {
   public static void main(String[] args){
-    String firstName="大吾郎";
-    String lastName="渡真利";
+    String firstName="太郎";
+    String lastName="凛空";
 
     if (firstName.length() >= 2 && lastName.length() >= 2) {
       System.out.println(lastName + "　" + firstName);

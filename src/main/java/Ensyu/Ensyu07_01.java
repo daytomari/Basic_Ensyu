@@ -18,9 +18,6 @@ public class Ensyu07_01 {
 
     System.out.println(strList.stream()
             .filter(str -> str.length() >= 2)
-//        .forEach(System.out::println)
-            //※上記はメソッド参照と呼ばれる
-            //.forEach(str -> System.out.println(str));
             .collect(Collectors.joining(","))
     );
   }
