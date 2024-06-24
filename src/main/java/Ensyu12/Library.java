@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Library {
+
   private List<Book> books;
 
-  public Library(){
+  public Library() {
     this.books = new ArrayList<>();
   }
 
@@ -17,24 +18,23 @@ public class Library {
   public void addBook(List<Book> book) { //書籍をまとめて追加
     books.addAll(book);
   }
+
   public List<Book> getBooks() {
     return books;
   }
 
 
-
-  public String searchTilte(String title){
+  public String searchTilte(String title) {
     return title;
   }
 
-  public String searchAuthor(String author){
+  public String searchAuthor(String author) {
     return author;
   }
 
-  public int searchNumber(int number){
+  public int searchNumber(int number) {
     return number;
   }
-
 
 
 }

@@ -10,7 +10,8 @@ package Ensyu;
 
 
 public class Ensyu11 {
-  public static void main(String[] args){
+
+  public static void main(String[] args) {
 // 上記ショートカット
 
   }

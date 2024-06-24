@@ -1,7 +1,8 @@
 package Ensyu09;
 
-public class Phone implements Mail,App {
-  public String call(String name){
+public class Phone implements Mail, App {
+
+  public String call(String name) {
     return name + "へ電話をかけました";
   }
 

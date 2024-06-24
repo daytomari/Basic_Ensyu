@@ -9,10 +9,11 @@ package Ensyu;
 import java.util.List;
 
 public class Ensyu07_01kai {
-  public static void main(String[] args){
+
+  public static void main(String[] args) {
     List<String> strList = List.of(
-        "Sato","Igarashi","Minami","Tanaka","Sasaki",
-        "Watanabe","Yamamoto","Ohkubo","Hayashi","Kato"
+        "Sato", "Igarashi", "Minami", "Tanaka", "Sasaki",
+        "Watanabe", "Yamamoto", "Ohkubo", "Hayashi", "Kato"
     );
 
     strList.stream()

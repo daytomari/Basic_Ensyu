@@ -6,7 +6,8 @@ package Ensyu09;
 //interfaceの実装を２つ以上作成してみましょう
 
 public class Ensyu09 {
-  public static void main(String[] args){
+
+  public static void main(String[] args) {
     Phone phone = new Phone();
     String message = phone.call("渡真利");
     System.out.println(message);

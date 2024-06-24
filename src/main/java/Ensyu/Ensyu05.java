@@ -7,9 +7,10 @@ package Ensyu;
 //条件がfalseの場合は、条件に一致しませんでした。と表示します
 
 public class Ensyu05 {
-  public static void main(String[] args){
-    String firstName="太郎";
-    String lastName="凛空";
+
+  public static void main(String[] args) {
+    String firstName = "太郎";
+    String lastName = "凛空";
 
     if (firstName.length() >= 2 && lastName.length() >= 2) {
       System.out.println(lastName + "　" + firstName);

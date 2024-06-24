@@ -9,7 +9,8 @@ package Ensyu;
 import java.util.ArrayList;
 
 public class Ensyu06_01b {
-  public static void main(String[] args){
+
+  public static void main(String[] args) {
     ArrayList<String> studentList = new ArrayList();
 
     studentList.add("佐藤");
@@ -23,8 +24,8 @@ public class Ensyu06_01b {
     studentList.add("林");
     studentList.add("加藤");
 
-    for (String name : studentList){
-      if (name.length()>=3) {
+    for (String name : studentList) {
+      if (name.length() >= 3) {
         System.out.println(name);
       }
     }
