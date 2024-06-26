@@ -11,7 +11,7 @@ import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Ensyu10_High {
+public class Ensyu10_01High {
 
   public static void main(String[] args) {
     List<String> randomStrings = generateRandomStrings(30);

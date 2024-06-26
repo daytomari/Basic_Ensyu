@@ -8,7 +8,7 @@ package Ensyu;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Ensyu10 {
+public class Ensyu10_01 {
 
   public static void main(String[] args) {
     List<String> strList = List.of(
