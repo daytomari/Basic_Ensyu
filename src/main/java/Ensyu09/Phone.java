@@ -1,7 +1,8 @@
 package Ensyu09;
 
-public class Phone implements Mail,App {
-  public String call(String name){
+public class Phone implements Mail, App {
+
+  public String call(String name) {
     return name + "へ電話をかけました";
   }
 
@@ -9,6 +10,11 @@ public class Phone implements Mail,App {
   @Override
   public String send(String message) {
     return "「" + message + "」というメッセージを送信しました";
+  }
+
+  @Override
+  public String receive(String message) {
+    return "「" + message + "」というメッセージを受信しました";
   }
 
   @Override

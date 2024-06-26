@@ -5,7 +5,8 @@ package Ensyu;
 // 自分の名前と自分の年齢は、変数を使用します
 
 public class Ensyu04 {
-  public static void main(String[] args){
+
+  public static void main(String[] args) {
     String name = "凛空太郎";
     int age = 30;
 

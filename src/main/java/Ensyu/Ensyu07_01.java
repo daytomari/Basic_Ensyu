@@ -10,18 +10,24 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Ensyu07_01 {
-  public static void main(String[] args){
-    List<String> strList = List.of(
-        "佐藤","五十嵐","南","田中","佐々木",
-        "渡辺","山本","大久保","林","加藤"
+
+  public static void main(String[] args) {
+    List<String> studentList = List.of(
+        "佐藤", "五十嵐", "南", "田中", "佐々木",
+        "渡辺", "山本", "大久保", "林", "加藤"
     );
 
-    System.out.println(strList.stream()
-            .filter(str -> str.length() >= 2)
-//        .forEach(System.out::println)
-            //※上記はメソッド参照と呼ばれる
-            //.forEach(str -> System.out.println(str));
-            .collect(Collectors.joining(","))
+//    System.out.println(studentList.stream()
+//        .map(String::toString)
+//        .sorted()
+//        .distinct()
+//        .filter(v -> v.startsWith("田"))
+//        .findFirst())
+//    ;
+
+    System.out.println(studentList.stream()
+        .filter(str -> str.length() >= 2)
+        .collect(Collectors.joining(","))
     );
   }
 

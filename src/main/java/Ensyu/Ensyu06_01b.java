@@ -1,9 +1,16 @@
 package Ensyu;
 
+//繰り返し処理の課題課題１
+//生徒名のような文字列のリストを作成しましょう
+//リストの数は10以上
+//リストに入っている文字数が3文字以上のものを表示しましょう
+//このリストをループさせて繰り返し処理を実施し、その中で上記の条件を満たすものだけを表示しましょう
+
 import java.util.ArrayList;
 
 public class Ensyu06_01b {
-  public static void main(String[] args){
+
+  public static void main(String[] args) {
     ArrayList<String> studentList = new ArrayList();
 
     studentList.add("佐藤");
@@ -17,11 +24,10 @@ public class Ensyu06_01b {
     studentList.add("林");
     studentList.add("加藤");
 
-    for (String name : studentList){
-      if (name.length()>=3) {
+    for (String name : studentList) {
+      if (name.length() >= 3) {
         System.out.println(name);
       }
     }
   }
-
 }

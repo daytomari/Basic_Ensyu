@@ -5,8 +5,9 @@ package Ensyu09;
 //GreetingとSpeakingは使わずにinterfaceと実装を組み合わせて作成しましょう
 //interfaceの実装を２つ以上作成してみましょう
 
-public class Ensyu09 {
-  public static void main(String[] args){
+public class Ensyu09_01 {
+
+  public static void main(String[] args) {
     Phone phone = new Phone();
     String message = phone.call("渡真利");
     System.out.println(message);
@@ -14,8 +15,11 @@ public class Ensyu09 {
     String message2 = phone.send("こんにちは");
     System.out.println(message2);
 
-    String message3 = phone.play("ニュースアプリ");
+    String message3 = phone.send("帰宅しました");
     System.out.println(message3);
+
+    String message4 = phone.play("ニュースアプリ");
+    System.out.println(message4);
   }
 
 }

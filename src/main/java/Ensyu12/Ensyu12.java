@@ -16,11 +16,11 @@ public class Ensyu12 {
   public static void main(String[] args) {
     Library library = new Library();
     List<Book> newBooks = List.of(
-        new Book("プロになるJava","杉山貴章",1),
-        new Book("スッキリわかるJava入門","中山清喬",2),
-        new Book("スッキリわかるPython入門","国本大悟",3),
-        new Book("GoogleAppsScript完全入門","髙橋宣成",4),
-        new Book("Adobe Firefly完全ガイド","吉岡豊",5)
+        new Book("プロになるJava", "杉山貴章", 1),
+        new Book("スッキリわかるJava入門", "中山清喬", 2),
+        new Book("スッキリわかるPython入門", "国本大悟", 3),
+        new Book("GoogleAppsScript完全入門", "髙橋宣成", 4),
+        new Book("Adobe Firefly完全ガイド", "吉岡豊", 5)
     );
 
     library.addBook(newBooks);

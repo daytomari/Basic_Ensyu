@@ -12,7 +12,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Ensyu10_High {
-  public static void main(String[] args){
+
+  public static void main(String[] args) {
     List<String> randomStrings = generateRandomStrings(30);
     System.out.println("元のリスト：" + randomStrings);
 
@@ -24,7 +25,7 @@ public class Ensyu10_High {
     List<String> digitOnlyList = new ArrayList<>();
     List<String> letterOnlyList = new ArrayList<>();
 
-    for (String str : randomStrings){
+    for (String str : randomStrings) {
       Matcher digitMatcher = digitsPattern.matcher(str);
       if (digitMatcher.find()) {
         digitOnlyList.add(digitMatcher.group());
@@ -47,7 +48,7 @@ public class Ensyu10_High {
     String characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     Random random = new Random();
 
-    for (int i = 0; i < count; i++){
+    for (int i = 0; i < count; i++) {
       StringBuilder sb = new StringBuilder();
       int length = random.nextInt(10) + 1;
       for (int j = 0; j < length; j++) {

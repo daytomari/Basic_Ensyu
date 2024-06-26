@@ -12,8 +12,9 @@ import java.util.List;
 import java.util.OptionalDouble;
 
 public class Ensyu07_03 {
-  public static void main(String[] args){
-    List<Integer> numbers = Arrays.asList(12,34,25,67,51,2,64,81,47,24);
+
+  public static void main(String[] args) {
+    List<Integer> numbers = Arrays.asList(12, 34, 25, 67, 51, 2, 64, 81, 47, 24);
 
     OptionalDouble avg = numbers.stream()
         .filter(num -> num % 2 != 0)
