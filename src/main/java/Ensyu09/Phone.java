@@ -13,6 +13,11 @@ public class Phone implements Mail, App {
   }
 
   @Override
+  public String receive(String message) {
+    return "「" + message + "」というメッセージを受信しました";
+  }
+
+  @Override
   public String play(String name) {
     return name + "を起動しました";
   }
