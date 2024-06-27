@@ -25,18 +25,6 @@ public class Ensyu12 {
 
     library.addBook(newBooks);
 
-//    Book book1 = new Book("プロになるJava","杉山貴章",1);
-//    Book book2 = new Book("スッキリわかるJava入門","中山清喬",2);
-//    Book book3 = new Book("スッキリわかるPython入門","国本大悟",3);
-//    Book book4 = new Book("GoogleAppsScript完全入門","髙橋宣成",4);
-//    Book book5 = new Book("Adobe Firefly完全ガイド","吉岡豊",5);
-//
-//    library.addBook(book1);
-//    library.addBook(book2);
-//    library.addBook(book3);
-//    library.addBook(book4);
-//    library.addBook(book5);
-
     for (Book book : library.getBooks()) {
       System.out.println(book.getTitle());
     }

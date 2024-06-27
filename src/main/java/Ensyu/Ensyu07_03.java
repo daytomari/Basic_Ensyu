@@ -14,18 +14,8 @@ import java.util.OptionalDouble;
 public class Ensyu07_03 {
 
   public static void main(String[] args) {
-    List<Integer> numbers = Arrays.asList(12, 34, 25, 67, 51, 2, 64, 81, 47, 24);
+    //ChatGPTが作った課題
 
-    OptionalDouble avg = numbers.stream()
-        .filter(num -> num % 2 != 0)
-        .mapToInt(num -> num)
-        .average();
-
-    if (avg.isPresent()) {
-      System.out.println("奇数の平均知：　" + avg.getAsDouble());
-    } else {
-      System.out.println("リストに奇数はありません");
-    }
   }
 
 }
