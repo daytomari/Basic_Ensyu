@@ -6,20 +6,30 @@ package Ensyu;
 //リストに入っている文字数が3文字以上のものを表示しましょう
 //このリストをループさせて繰り返し処理を実施し、その中で上記の条件を満たすものだけを表示しましょう
 
-import java.util.Arrays;
 import java.util.List;
 
-public class Ensyu06_01a {
+public class Ensyu06_01 {
 
   public static void main(String[] args) {
-    List<String> studentList = Arrays.asList(
-        "佐藤", "五十嵐", "南", "田中", "佐々木",
-        "渡辺", "山本", "大久保", "林", "加藤");
+//    String[] studentNames = new String[]{
+//        "佐藤","五十嵐","南","田中","佐々木",
+//        "渡辺","山本","大久保","林","加藤"};
+//    System.out.println("配列：" + Arrays.toString(studentNames));//配列をまとめて出力
+//    List<String> studentNameList = Arrays.asList(studentNames); //配列をリストへ変換
+//    System.out.println("リスト：" + studentNameList);
 
-    for (String name : studentList) {
+    List<String> studentNameList = List.of(
+        "佐藤", "五十嵐", "南", "田中", "佐々木",
+        "渡辺", "山本", "大久保", "林", "加藤"
+    );
+
+    for (String name : studentNameList) {
       if (name.length() >= 3) {
         System.out.println(name);
       }
     }
+
+
   }
+
 }

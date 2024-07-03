@@ -7,7 +7,8 @@ package Ensyu;
 //課題が終わりましたら、1on1の予約を行いましょう
 
 public class Ensyu13 {
-  public static void main(String[] args){
+
+  public static void main(String[] args) {
 
   }
 

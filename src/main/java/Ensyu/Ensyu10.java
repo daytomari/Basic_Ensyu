@@ -9,14 +9,15 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Ensyu10 {
-  public static void main(String[] args){
+
+  public static void main(String[] args) {
     List<String> strList = List.of(
-        "M6MOp","czdtqJxI","1m3sAQ8","bN02evy","T5Mnb8k4",
-        "VJg2JeX","678","viJHH5VL","VFXbb","PnfPw",
-        "Jjfl1c1","SrCmG4NJ","zEyKeIXu","8z","EGuyg5",
-        "HVc65mz","El","b1HaT","UD","p4JN",
-        "LnJN8IDy","mBH5t","FFzw","rykpz","77",
-        "TI0E","DS8nUdL","Java","RXEiX7Qw","zi0Py"
+        "M6MOp", "czdtqJxI", "1m3sAQ8", "bN02evy", "T5Mnb8k4",
+        "VJg2JeX", "678", "viJHH5VL", "VFXbb", "PnfPw",
+        "Jjfl1c1", "SrCmG4NJ", "zEyKeIXu", "8z", "EGuyg5",
+        "HVc65mz", "El", "b1HaT", "UD", "p4JN",
+        "LnJN8IDy", "mBH5t", "FFzw", "rykpz", "77",
+        "TI0E", "DS8nUdL", "Java", "RXEiX7Qw", "zi0Py"
     );
     System.out.println("元のリスト：" + strList);
 
@@ -37,7 +38,6 @@ public class Ensyu10 {
 //        System.out.println(matcher.group());
 //      }
 //    }
-
 
   }
 

@@ -11,6 +11,7 @@ import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 
 public class Ensyu08 {
+
   public static void main(String[] args) throws IOException {
     try {
       Path path = Path.of("JavaCourse.txt");
