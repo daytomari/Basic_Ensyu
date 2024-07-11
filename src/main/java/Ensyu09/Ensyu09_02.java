@@ -8,9 +8,13 @@ package Ensyu09;
 
 public class Ensyu09_02 {
   public static void main(String[] args){
-    SubPhone phone = new SubPhone();
-    String message = phone.call("渡真利");
-    System.out.println(message);
+    Phone phone = new Phone();
+    SubPhone subphone = new SubPhone();
+
+    String messageMain = phone.call("渡真利");
+    String messageSub = subphone.call("山田");
+    System.out.println(messageMain);
+    System.out.println(messageSub);
   }
 
 }
