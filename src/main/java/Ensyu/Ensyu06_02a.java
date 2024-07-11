@@ -9,12 +9,7 @@ package Ensyu;
 
 import java.util.Comparator;
 import java.util.Map;
-<<<<<<< HEAD
-import java.util.stream.Collectors;
-import java.util.LinkedHashMap;
-=======
 import java.util.TreeMap;
->>>>>>> 74aa99d5e31fc31a620a85ba3a3c22b912052529
 
 public class Ensyu06_02a {
 

@@ -17,11 +17,6 @@ public class Ensyu07_01 {
         "渡辺", "山本", "大久保", "林", "加藤"
     );
 
-<<<<<<< HEAD
-    System.out.println(strList.stream()
-            .filter(str -> str.length() >= 2)
-            .collect(Collectors.joining(","))
-=======
 //    System.out.println(studentList.stream()
 //        .map(String::toString)
 //        .sorted()
@@ -33,7 +28,6 @@ public class Ensyu07_01 {
     System.out.println(studentList.stream()
         .filter(str -> str.length() >= 2)
         .collect(Collectors.joining(","))
->>>>>>> 74aa99d5e31fc31a620a85ba3a3c22b912052529
     );
   }
 
