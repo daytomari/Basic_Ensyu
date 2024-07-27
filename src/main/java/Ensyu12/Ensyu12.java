@@ -15,19 +15,37 @@ public class Ensyu12 {
 
   public static void main(String[] args) {
     Library library = new Library();
-    List<Book> newBooks = List.of(
-        new Book("プロになるJava", "杉山貴章", 1),
-        new Book("スッキリわかるJava入門", "中山清喬", 2),
-        new Book("スッキリわかるPython入門", "国本大悟", 3),
-        new Book("GoogleAppsScript完全入門", "髙橋宣成", 4),
-        new Book("Adobe Firefly完全ガイド", "吉岡豊", 5)
-    );
 
-    library.addBook(newBooks);
+    Book book1 = new Book("プロになるJava", "杉山貴章", 1);
+    Book book2 = new Book("スッキリわかるJava入門", "中山清喬", 2);
+    Book book3 = new Book("スッキリわかるPython入門", "国本大悟", 3);
+    Book book4 = new Book("GoogleAppsScript完全入門", "髙橋宣成", 4);
+    Book book5 = new Book("Adobe Firefly完全ガイド", "吉岡豊", 5);
 
+    library.addBook(book1);
+    library.addBook(book2);
+    library.addBook(book3);
+    library.addBook(book4);
+    library.addBook(book5);
+
+    // 書籍一覧の表示
+    System.out.println("書籍一覧");
     for (Book book : library.getBooks()) {
       System.out.println(book.getTitle());
     }
+    System.out.println();
+
+    // 書籍名で検索
+    System.out.println("書籍名で検索");
+//    List<Book> searchBook = Library.searchTitle("プロになるJava");
+//    for (Book book: searchBook) {
+//      System.out.println("Title:" + book.getTitle());
+//      System.out.println("Number:" + book.getNumber());
+//    }
+
+    // 著者名で検索
+    System.out.println("著者名で検索");
+
   }
 
 }
