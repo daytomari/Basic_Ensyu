@@ -2,6 +2,7 @@ package Ensyu12;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Library {
 
@@ -24,16 +25,22 @@ public class Library {
   }
 
 
-  public String searchTilte(String title) {
-    return title;
+  public List<Book> searchTitle(String title) {
+    return books.stream()
+            .filter(book -> book.getTitle().equalsIgnoreCase(title))
+            .collect(Collectors.toList());
   }
 
-  public String searchAuthor(String author) {
-    return author;
+  public List<Book> searchAuthor(String author) {
+    return books.stream()
+            .filter(book -> book.getAuthor().equalsIgnoreCase(author))
+            .collect(Collectors.toList());
   }
 
-  public int searchNumber(int number) {
-    return number;
+  public List<Book> searchNumber(int number) {
+    return books.stream()
+            .filter(book -> book.getNumber() == number)
+            .collect(Collectors.toList());
   }
 
 
