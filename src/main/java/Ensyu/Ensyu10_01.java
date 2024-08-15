@@ -17,7 +17,8 @@ public class Ensyu10_01 {
                 "Jjfl1c1", "SrCmG4NJ", "zEyKeIXu", "8z", "EGuyg5",
                 "HVc65mz", "El", "b1HaT", "UD", "p4JN",
                 "LnJN8IDy", "mBH5t", "FFzw", "rykpz", "77",
-                "TI0E", "DS8nUdL", "Java", "RXEiX7Qw", "zi0Py"
+                "TI0E", "DS8nUdL", "Java", "RXEiX7Qw", "zi0Py",
+                "daytomari@gmail.com","daigoro.tomari@link-academy.co.jp"
         );
         System.out.println("元のリスト：" + strList + "\n");
 
