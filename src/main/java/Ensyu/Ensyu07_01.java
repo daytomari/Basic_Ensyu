@@ -17,14 +17,6 @@ public class Ensyu07_01 {
         "渡辺", "山本", "大久保", "林", "加藤"
     );
 
-//    System.out.println(studentList.stream()
-//        .map(String::toString)
-//        .sorted()
-//        .distinct()
-//        .filter(v -> v.startsWith("田"))
-//        .findFirst())
-//    ;
-
     System.out.println(studentList.stream()
         .filter(str -> str.length() >= 2)
         .collect(Collectors.joining(","))
