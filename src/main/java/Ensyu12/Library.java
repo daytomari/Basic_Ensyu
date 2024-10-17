@@ -23,18 +23,34 @@ public class Library {
     return books;
   }
 
-
-  public String searchTilte(String title) {
-    return title;
+  public List<Book> searchTilte(String title) {
+    List<Book> searchBook = new ArrayList<>();
+    for (Book book : books) {
+      if (book.getTitle().toLowerCase().contains(title.toLowerCase())) {
+        searchBook.add(book);
+      }
+    }
+    return searchBook;
   }
 
-  public String searchAuthor(String author) {
-    return author;
+  public List<Book> searchAuthor(String author) {
+    List<Book> searchBook = new ArrayList<>();
+    for (Book book : books) {
+      if (book.getAuthor().toLowerCase().contains(author.toLowerCase())) {
+        searchBook.add(book);
+      }
+    }
+    return searchBook;
   }
 
-  public int searchNumber(int number) {
-    return number;
+  public List<Book> searchNumber(int number) {
+    List<Book> searchBook = new ArrayList<>();
+    for (Book book : books) {
+      if (book.getNumber()==number) {
+        searchBook.add(book);
+      }
+    }
+    return searchBook;
   }
-
 
 }
