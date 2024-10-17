@@ -11,17 +11,18 @@ import java.util.stream.Collectors;
 
 public class Ensyu07_01 {
 
-  public static void main(String[] args) {
-    List<String> studentList = List.of(
-        "佐藤", "五十嵐", "南", "田中", "佐々木",
-        "渡辺", "山本", "大久保", "林", "加藤"
-    );
+    public static void main(String[] args) {
+        List<String> studentList = List.of(
+                "佐藤", "五十嵐", "南", "田中", "佐々木",
+                "渡辺", "山本", "大久保", "林", "加藤"
+        );
 
-    System.out.println(studentList.stream()
-        .filter(str -> str.length() >= 2)
-        .collect(Collectors.joining(","))
-    );
-  }
+        System.out.print("2文字以上の文字列：　");
+        System.out.println(studentList.stream()
+                .filter(str -> str.length() >= 2)
+                .collect(Collectors.joining(","))
+        );
+    }
 
 
 }

@@ -8,26 +8,23 @@ package Ensyu;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
-import java.util.OptionalDouble;
-import java.util.stream.Collectors;
 
 public class Ensyu07_02 {
 
-  public static void main(String[] args) {
-    List<Integer> numbers = Arrays.asList(12, 34, 25, 67, 51, 2, 64, 81, 47, 24);
+    public static void main(String[] args) {
+        List<Integer> numbers = Arrays.asList(12, 34, 25, 67, 51, 2, 64, 81, 47, 24);
 
-    double avg = numbers.stream()
-        .filter(num -> num % 2 != 0)
-        .mapToInt(num -> num)
-        .average()
-        .getAsDouble();
+        double avg = numbers.stream()
+                .filter(num -> num % 2 != 0)
+                .mapToInt(num -> num)
+                .average()
+                .getAsDouble(); //計算された平均値を double 型で返す
 
-    if (avg != 0) {
-      System.out.println("奇数の平均値：　" + avg);
-    } else {
-      System.out.println("リストに奇数はありません");
+        if (avg != 0) {
+            System.out.println("奇数の平均値：　" + avg);
+        } else {
+            System.out.println("リストに奇数はありません");
+        }
     }
-  }
 
 }
