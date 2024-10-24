@@ -8,7 +8,7 @@ public class Ensyu04 {
 
   public static void main(String[] args) {
     String name = "凛空太郎";
-    int age = 30;
+    int age = 40;
 
     System.out.println(name + "は" + age + "歳です。");
   }
