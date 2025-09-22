@@ -15,7 +15,7 @@ import java.util.Map.Entry;
 public class Ensyu06_02b {
 
   public static void main(String[] args) {
-    Map<Integer, String> studentList = new HashMap<>(Map.of(
+    Map<Integer, String> studentList = new HashMap<>(Map.of( //HashMapを使うことで要素変更が可能になる
         1, "佐藤", 2, "五十嵐", 3, "南", 4, "田中", 5, "佐々木",
         6, "渡辺", 7, "山本", 8, "大久保", 9, "林", 10, "加藤"));
 

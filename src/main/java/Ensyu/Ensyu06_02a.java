@@ -14,7 +14,7 @@ import java.util.TreeMap;
 public class Ensyu06_02a {
 
   public static void main(String[] args) {
-    Map<Integer, String> studentList = Map.of( //Map of はMap内の順序を変更することができない
+    Map<Integer, String> studentList = Map.of( //Map of はMap内の順序、要素を変更することができない
 
         1, "佐藤", 2, "五十嵐", 3, "南", 4, "田中", 5, "佐々木",
         6, "渡辺", 7, "山本", 8, "大久保", 9, "林", 10, "加藤");

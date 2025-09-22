@@ -15,7 +15,7 @@ import java.util.Map.Entry;
 public class Ensyu06_02c {
 
   public static void main(String[] args) {
-    Map<Integer, String> studentList = new HashMap<>();
+    Map<Integer, String> studentList = new HashMap<>();// HashMap<>(Map.of(と使い勝手は同じ、柔軟性が高い
     studentList.put(1, "佐藤");
     studentList.put(2, "五十嵐");
     studentList.put(3, "南");

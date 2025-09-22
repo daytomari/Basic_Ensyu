@@ -23,13 +23,13 @@ public class Ensyu10_01 {
         System.out.println("元のリスト：" + strList + "\n");
 
         List<String> filterList1 = strList.stream()
-                .filter(n -> n.matches("\\d+"))
+                .filter(n -> n.matches("\\d+"))//数字だけ
                 .collect(Collectors.toList());
 
         System.out.println("数字のみ：" + filterList1);
 
         List<String> filterList2 = strList.stream()
-                .filter(n -> n.matches("[a-zA-Z]+"))
+                .filter(n -> n.matches("[a-zA-Z]+"))//文字だけ
                 .collect(Collectors.toList());
 
         System.out.println("文字のみ：" + filterList2);
